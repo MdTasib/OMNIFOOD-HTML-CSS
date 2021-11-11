@@ -62,9 +62,19 @@ Medium: 11px
 	box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	color: #555;
 	line-height: 1;
 	font-weight: 400;
 	font-family: sans-serif;
+}
+
+.test {
+	max-width: 1000px;
+	padding: 100px;
+	background: red;
 }
