@@ -73,8 +73,13 @@ body {
 	font-family: sans-serif;
 }
 
-.test {
-	max-width: 1000px;
-	padding: 100px;
-	background: red;
+.hero {
+	max-width: 90rem;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+	width: 100%;
 }
