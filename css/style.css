@@ -76,6 +76,26 @@ body {
 /*********************/
 /* Genral Reuseable Components */
 /*********************/
+
+.container {
+	max-width: 90rem;
+	padding: 0 3.2rem;
+	margin: 0 auto;
+}
+
+.grid {
+	display: grid;
+	gap: 9.6rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+	grid-template-columns: repeat(4, 1fr);
+}
+
 .heading-primary {
 	font-size: 4.4rem;
 	line-height: 1.05;
@@ -238,4 +258,13 @@ body {
 .delivered-text span {
 	color: #e67e22;
 	font-weight: 700;
+}
+
+/*********************/
+/* How its work section*/
+/*********************/
+
+.section-how {
+	padding: 9.6rem 0;
+	background-color: orangered;
 }
