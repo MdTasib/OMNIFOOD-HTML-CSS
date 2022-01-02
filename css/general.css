@@ -145,12 +145,30 @@ body {
 	letter-spacing: 0.75px;
 }
 
+.btn--form {
+	background-color: #45260a;
+	color: #fdf2e9;
+	align-self: end;
+	padding: 1.2rem;
+}
+
+.btn--form:hover {
+	background-color: #fff;
+	color: #555;
+}
+
+.btn,
 .btn:link,
 .btn:visited {
 	border-radius: 9px;
 	padding: 1.6rem 3.2rem;
 	font-size: 2rem;
 	font-weight: 600;
+
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+
 	display: inline-block;
 	text-decoration: none;
 	transition: all 0.4s;
@@ -230,4 +248,9 @@ body {
 
 strong {
 	font-weight: 500;
+}
+
+*:focus {
+	outline: none;
+	box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
