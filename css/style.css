@@ -469,6 +469,22 @@
 	height: 40rem;
 }
 
+.cta-text-box {
+	padding: 4.2rem 6rem 6rem 6rem;
+	color: #45260a;
+}
+
+.cta .heading-secondary {
+	color: #45260a;
+	margin-bottom: 2.8rem;
+}
+
+.cta-text {
+	font-size: 1.6rem;
+	line-height: 1.6;
+	margin-bottom: 2.8rem;
+}
+
 .cta-img-box {
 	background-image: linear-gradient(
 			to right bottom,
