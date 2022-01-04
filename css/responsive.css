@@ -18,9 +18,13 @@
 	}
 }
 
+/**************************/
+/* BELOW 880px (Landscape Tablets) */
+/**************************/
+
 @media (max-width: 55rem) {
 	html {
-		font-size: 56.25%;
+		font-size: 50%;
 	}
 
 	.grid {
@@ -54,5 +58,55 @@
 }
 
 /**************************/
-/* BELOW 1200px (Landscape Tablets) */
+/* BELOW 800px (Landscape Tablets) */
 /**************************/
+@media (max-width: 50rem) {
+	html {
+		font-size: 45%;
+	}
+
+	.hero {
+		grid-template-columns: 1fr;
+	}
+
+	.hero-text-box,
+	.hero-img-box {
+		text-align: center;
+	}
+
+	.hero-img {
+		width: 60%;
+	}
+
+	.delivered-meals {
+		justify-content: center;
+	}
+
+	.logos img {
+		height: 2rem;
+	}
+
+	.step-number {
+		font-size: 7.2rem;
+	}
+
+	.meal-content {
+		padding: 1.4rem;
+	}
+
+	.section-testimonials {
+		grid-template-columns: 1fr;
+	}
+
+	.gallery {
+		grid-template-columns: repeat(6, 1fr);
+	}
+
+	.cta {
+		grid-template-columns: 3fr 2fr;
+	}
+
+	.cta-form {
+		grid-template-columns: 1fr;
+	}
+}
