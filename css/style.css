@@ -54,6 +54,26 @@
 	background-color: #cf711f;
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+	border: none;
+	cursor: pointer;
+	background: none;
+
+	display: none;
+}
+
+.icon-mobile-nav {
+	width: 3.2rem;
+	height: 3.2rem;
+	color: #333;
+	background: red;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+	display: none;
+}
+
 /*********************/
 /* Head Section */
 /*********************/
